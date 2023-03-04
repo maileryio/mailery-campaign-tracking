@@ -4,7 +4,7 @@ namespace Mailery\Campaign\Tracking\Mailer\Message\Middleware;
 
 use Mailery\Campaign\Entity\Campaign;
 use Mailery\Channel\Smtp\Mailer\Message\EmailMessage;
-use Mailery\Template\Helper\LinkReplaceCallback;
+use Mailery\Campaign\Tracking\Helper\LinkReplaceCallback;
 
 class ShortUrlLinker
 {
